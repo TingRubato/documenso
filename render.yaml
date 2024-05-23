@@ -2,7 +2,7 @@ services:
   - type: web
     name: documenso-app
     env: node
-    plan: free
+    plan: pro
     buildCommand: npm i && npm run build:web
     startCommand: npx prisma migrate deploy --schema packages/prisma/schema.prisma && npm run start
     healthCheckPath: /api/trpc/health
@@ -100,4 +100,4 @@ services:
 
 databases:
   - name: documenso-db
-    plan: free
+    plan: pro

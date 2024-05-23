@@ -227,8 +227,8 @@ export const SignUpFormV2 = ({
             <h1 className="text-xl font-semibold md:text-2xl">Create a new account</h1>
 
             <p className="text-muted-foreground mt-2 text-xs md:text-sm">
-              Create your account and start using state-of-the-art document signing. Open and
-              beautiful signing is within your grasp.
+              Create your account and start using state-of-the-art document signing made by the
+              Documenso Team.
             </p>
           </div>
         )}
