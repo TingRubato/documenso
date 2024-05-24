@@ -106,9 +106,10 @@ export const DeleteAccountDialog = ({ className, user }: DeleteAccountDialogProp
                 )}
 
                 <DialogDescription>
-                  Documenso will delete <span className="font-semibold">all of your documents</span>
-                  , along with all of your completed documents, signatures, and all other resources
-                  belonging to your Account.
+                  SignMe Today will delete{' '}
+                  <span className="font-semibold">all of your documents</span>, along with all of
+                  your completed documents, signatures, and all other resources belonging to your
+                  Account.
                 </DialogDescription>
               </DialogHeader>
 

@@ -10,8 +10,8 @@ export default function SignatureDisclosure() {
 
         <h2>Welcome</h2>
         <p>
-          Thank you for using Documenso to perform your electronic document signing. The purpose of
-          this disclosure is to inform you about the process, legality, and your rights regarding
+          Thank you for using SignMe Today to perform your electronic document signing. The purpose
+          of this disclosure is to inform you about the process, legality, and your rights regarding
           the use of electronic signatures on our platform. By opting to use an electronic
           signature, you are agreeing to the terms and conditions outlined below.
         </p>
@@ -61,8 +61,8 @@ export default function SignatureDisclosure() {
           You have the right to withdraw your consent to use electronic signatures at any time
           before completing the signing process. To withdraw your consent, please contact the sender
           of the document. In failing to contact the sender you may reach out to{' '}
-          <a href="mailto:support@documenso.com">support@documenso.com</a> for assistance. Be aware
-          that withdrawing consent may delay or halt the completion of the related transaction or
+          <a href="mailto:help@signme.today">help@signme.today</a> for assistance. Be aware that
+          withdrawing consent may delay or halt the completion of the related transaction or
           service.
         </p>
 
@@ -84,7 +84,7 @@ export default function SignatureDisclosure() {
 
         <h2>Acknowledgment</h2>
         <p>
-          By proceeding to use the electronic signature service provided by Documenso, you affirm
+          By proceeding to use the electronic signature service provided by SignMe Today, you affirm
           that you have read and understood this disclosure. You agree to all terms and conditions
           related to the use of electronic signatures and electronic transactions as outlined
           herein.
@@ -93,8 +93,7 @@ export default function SignatureDisclosure() {
         <h2>Contact Information</h2>
         <p>
           For any questions regarding this disclosure, electronic signatures, or any related
-          process, please contact us at:{' '}
-          <a href="mailto:support@documenso.com">support@documenso.com</a>
+          process, please contact us at: <a href="mailto:help@signme.today">help@signme.today</a>
         </p>
       </article>
 
