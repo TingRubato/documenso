@@ -3,8 +3,7 @@
 import * as React from 'react';
 
 import * as LabelPrimitive from '@radix-ui/react-label';
-import type { VariantProps } from 'class-variance-authority';
-import { cva } from 'class-variance-authority';
+import { VariantProps, cva } from 'class-variance-authority';
 
 import { cn } from '../lib/utils';
 

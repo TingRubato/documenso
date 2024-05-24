@@ -13,7 +13,7 @@ type SetupTwoFactorAuthenticationOptions = {
   user: User;
 };
 
-const ISSUER = 'SignMe Today!';
+const ISSUER = 'Documenso';
 
 export const setupTwoFactorAuthentication = async ({
   user,

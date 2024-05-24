@@ -1,4 +1,4 @@
-import type { Field } from '@documenso/prisma/client';
+import { Field } from '@documenso/prisma/client';
 
 /**
  * Sort the fields by the Y position on the document.

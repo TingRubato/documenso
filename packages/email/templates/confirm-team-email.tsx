@@ -27,12 +27,12 @@ export type ConfirmTeamEmailProps = {
 
 export const ConfirmTeamEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://signme.today',
+  baseUrl = 'https://documenso.com',
   teamName = 'Team Name',
   teamUrl = 'demo',
   token = '',
 }: ConfirmTeamEmailProps) => {
-  const previewText = `Accept team email request for ${teamName} on SignMe Today!`;
+  const previewText = `Accept team email request for ${teamName} on Documenso`;
 
   return (
     <Html>
@@ -71,7 +71,7 @@ export const ConfirmTeamEmailTemplate = ({
 
                 <Text className="text-center text-base">
                   <span className="font-bold">{teamName}</span> has requested to use your email
-                  address for their team on SignMe Today!.
+                  address for their team on Documenso.
                 </Text>
 
                 <div className="mx-auto mt-6 w-fit rounded-lg bg-gray-50 px-4 py-2 text-base font-medium text-slate-600">
@@ -94,7 +94,7 @@ export const ConfirmTeamEmailTemplate = ({
                   </ul>
 
                   <Text className="mt-2 text-sm">
-                    You can revoke access at any time in your team settings on SignMe Today!{' '}
+                    You can revoke access at any time in your team settings on Documenso{' '}
                     <Link href={`${baseUrl}/settings/teams`}>here.</Link>
                   </Text>
                 </Section>
