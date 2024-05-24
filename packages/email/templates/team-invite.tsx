@@ -27,13 +27,13 @@ export type TeamInviteEmailProps = {
 
 export const TeamInviteEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://documenso.com',
+  baseUrl = 'https://signme.today',
   senderName = 'John Doe',
   teamName = 'Team Name',
   teamUrl = 'demo',
   token = '',
 }: TeamInviteEmailProps) => {
-  const previewText = `Accept invitation to join a team on Documenso`;
+  const previewText = `Accept invitation to join a team on SignMeToday`;
 
   return (
     <Html>
@@ -67,7 +67,7 @@ export const TeamInviteEmailTemplate = ({
 
               <Section className="p-2 text-slate-500">
                 <Text className="text-center text-lg font-medium text-black">
-                  Join {teamName} on Documenso
+                  Join {teamName} on SignMeToday
                 </Text>
 
                 <Text className="my-1 text-center text-base">
